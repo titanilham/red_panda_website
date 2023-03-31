@@ -1,0 +1,159 @@
+a{
+    color: #00000000;
+}
+.hidden{
+
+    position: absolute; left: 500px; right: 500px;  top: 20px;
+    font-size: 90px;
+    font-family: Apple Chancery, cursive;
+    color: #fd6703;
+    cursor: default;
+    text-shadow:
+        0 0 7px rgb(252, 146, 120),
+        0 0 10px rgb(252, 146, 120),
+        0 0 21px rgb(252, 146, 120),
+        0 0 42px rgb(252, 146, 120);
+
+}
+
+
+
+.forest{
+
+    position: relative; left: -18px;
+    width: 800px;
+    opacity: 0.85;
+
+}
+
+.forest1{
+    
+    position: relative; top:275px; right: -76px;
+    width: 800px;
+    opacity: 0.85;
+    
+}
+
+.next1{
+    
+    cursor: default;
+    font-size: 80px;
+    position: absolute; right: 25px; bottom: 20px;
+
+
+}
+
+.info1{
+    font-family: Apple Chancery, cursive;
+    text-align: center;
+    font-size: 40px;
+    font-weight: normal;
+    cursor: pointer;
+    text-shadow: 0 0 15px #0a2000;
+    color: transparent;
+    transition: all .5s;
+    position: relative; top: 750px
+}
+      
+.info1:hover {
+        text-shadow: 0 0 0 #0a2000;
+      }
+
+
+
+.bar{
+    position: relative; top: 3000px;
+    width: 1700px;
+    height: 80px;
+    background: #42424200;
+
+}
+
+.next2{
+
+    cursor: default;
+    font-size: 80px;
+    position: absolute; right: 25px; bottom: -1400px;
+
+}
+
+.photo1{
+    border-radius: 5%;
+    width: 1200px;
+    position: relative; top: 1000px;
+    filter: grayscale(1);
+    transition: 1s;
+}
+
+
+
+
+
+.photo1:hover{
+
+    filter: grayscale(0);
+
+}
+
+.next3{
+
+    cursor: default;
+    font-size: 80px;
+    position: absolute; right: 25px; bottom: -2600px;
+
+}
+
+
+
+.photo2{
+    border-radius: 5%;
+    width: 1200px;
+    position: relative; top: 1220px;
+    filter: grayscale(1);
+    transition: 1s;
+}
+
+.photo2:hover{
+
+    filter: grayscale(0);
+
+}
+
+.footer{
+    
+    position: absolute;  top: 4530px;
+    width: 100%;
+    height: 125px;
+    left: 0;
+    display: table-row;
+    background: #573a25;
+    
+}
+
+.text_footer1{
+
+    position: relative; top: 1258px; left: 100px;
+    font-size: 30px;
+    color: #5380b4;
+    overflow: hidden;
+    
+    display: inline;
+
+}
+
+.text_footer2{
+
+    position: relative; top: 1228px; 
+    font-size: 30px;
+    color: #5380b4;
+    overflow: hidden;
+    display: inline;
+    
+}
+
+.vk{
+    position: relative; top: 1180px; left: 1350px;
+    width: 70px;
+    z-index: 100;
+
+}
